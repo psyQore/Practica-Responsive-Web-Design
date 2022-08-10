@@ -1,0 +1,15 @@
+/* 5 - Shorthand para Media Queriess */
+
+/* Enfoque mobil first es el estandar */
+
+@media (min-width: 600px) {
+  .oferta {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .oferta {
+    font-size: 6rem;
+  }
+}
