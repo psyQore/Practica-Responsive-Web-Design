@@ -1,0 +1,21 @@
+/* 6 - Contenedores Responsive */
+
+/* Enfoque mobil first es el estandar */
+
+/* Tamaños estandard para media queries */
+
+/* Telfono movil */
+@media (min-width: 550px) {
+}
+/* Portrait */
+@media (min-width: 768px) {
+}
+/* landscape */
+@media (min-width: 1024px) {
+}
+/* laptop */
+@media (min-width: 1200px) {
+}
+/* Monitor */
+@media (min-width: 1600px) {
+}
