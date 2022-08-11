@@ -1,0 +1,8 @@
+/* 10 - Imágenes Responsive */
+
+/* Enfoque mobil first es el estandar */
+
+img {
+    max-width: 100%;
+    display: block;
+}
