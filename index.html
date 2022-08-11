@@ -23,7 +23,6 @@
     <!-- <link rel="stylesheet" href="css/08.css" /> -->
     <!-- <link rel="stylesheet" href="css/09.css" /> -->
     <link rel="stylesheet" href="css/10.css" />
-
   </head>
   <body>
     <div class="caja-curso">
@@ -90,9 +89,14 @@
       </div>
 
       <h2>Imágenes Responsive</h2>
-      <img src="img/imagen.jpg" alt="imagen responsive" />
+      <!-- <img src="img/imagen.webp" alt="imagen responsive" /> -->
 
       <h2>Formatos Modernos</h2>
+      <picture>
+        <source srcset="img/imagen.avif" type="image/avif" />
+        <source srcset="img/imagen.webp" type="image/webp" />
+        <img loading="lazy" src="img/imagen.jpg" alt="image" />
+      </picture>
 
       <h2>Formatos Modernos con SRC SET</h2>
     </div>
