@@ -92,13 +92,44 @@
       <!-- <img src="img/imagen.webp" alt="imagen responsive" /> -->
 
       <h2>Formatos Modernos</h2>
-      <picture>
+      <!-- <picture>
         <source srcset="img/imagen.avif" type="image/avif" />
         <source srcset="img/imagen.webp" type="image/webp" />
         <img loading="lazy" src="img/imagen.jpg" alt="image" />
-      </picture>
+      </picture> -->
 
       <h2>Formatos Modernos con SRC SET</h2>
+      <picture>
+        <source
+          sizes="1920w, 1280w, 640w"
+          srcset="
+            img/imagen.avif      1920w,
+            img/imagen-1000.avif 1280w,
+            img/imagen-700.avif   640w
+          "
+          type="image/avif"
+        />
+        <source
+          sizes="1920w, 1280w, 640w"
+          srcset="
+            img/imagen.webp      1920w,
+            img/imagen-1000.webp 1280w,
+            img/imagen-700.webp   640w
+          "
+          type="image/webp"
+        />
+        ´
+        <source
+          sizes="1920w, 1280w, 640w"
+          srcset="
+            img/imagen.jpeg      1920w,
+            img/imagen-1000.jpeg 1280w,
+            img/imagen-700.jpeg   640w
+          "
+          type="image/jpeg"
+        />
+        <img loading="lazy" src="img/imagen.jpg" alt="imagen" />
+      </picture>
     </div>
   </body>
 </html>
